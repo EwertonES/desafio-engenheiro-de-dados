@@ -23,11 +23,13 @@ Suba em seu github pessoal a resolução do problema e a documentação dele, li
 
 [Script](https://github.com/EwertonES/desafio-engenheiro-de-dados/blob/main/get_city_from_zipcode.py) criado com Python 3.8.8. Foram utilizadas as seguintes bibliotecas:
 
+ - openpyxl 3.0.7
  - pandas 1.2.3
  - requests 2.25.1
 
-Para rodá-lo, basta digitar:
+Para rodar o programa, basta digitar:
 
+    pip install --upgrade pandas requests openpyxl
     python get_city_from_zipcode.py
 
 Ele irá gerar um novo arquivo em CSV com o nome [cep_cidade.csv](https://github.com/EwertonES/desafio-engenheiro-de-dados/blob/main/cep_cidade.csv), contendo 2 colunas: CEP e a respectiva cidade. 
